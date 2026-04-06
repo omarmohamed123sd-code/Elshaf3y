@@ -1,16 +1,16 @@
 const express = require("express");
+
 const app = express();
 
-app.use(express.json());
-
-// test route
-app.get("/", (req, res) => {
-    res.send("Server is working 🔥");
-});
-
-// 🔥 أهم سطر في حياتك هنا
+// مهم جداً عشان Railway
 const PORT = process.env.PORT || 3000;
 
+// route بسيط للتجربة
+app.get("/", (req, res) => {
+    res.send("Elshaf3y Server is running 🚀");
+});
+
+// تشغيل السيرفر
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
 });
