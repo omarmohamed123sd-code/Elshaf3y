@@ -1,6 +1,7 @@
 {
-  "name": "login-server",
+  "name": "elshaf3y",
   "version": "1.0.0",
+  "description": "Elshaf3y server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
