@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.send("Server is working 🔥");
 });
 
-// مهم جدًا 👇
+// 🔥 أهم سطر في حياتك هنا
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
